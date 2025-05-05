@@ -1,0 +1,37 @@
+body {
+    /* set h1 color to blue */
+    background-color: moccasin;
+}
+
+h1 {
+    /* set h1 color to blue */
+    color: blue;
+    font-size: 48px;
+    text-align: center; /* can also be: right, center, left, justify */
+    font-family: "Tagesschrift", system-ui;
+}
+
+h2 {
+    /* set h2 color to red */
+    color: red;
+    font-size: 24px;
+    text-decoration: underline; /* can also be: underline, line-through */
+    font-weight: bolder; /* can also be: bold, bolder, lighter, 100-900 */
+    font-family: "Playfair Display", system-ui;
+}
+
+p{
+    font-family: "Montserrat", system-ui;
+}
+
+a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+/* State in CSS */
+
+/* state when cursor is hovering over 'a' element */
+a:hover{
+    text-decoration: underline;
+}
